@@ -4,5 +4,22 @@
   "commit": "1140192bcb204936a0ddc8fa74cedf497a35adbd",
   "retrieved_at": "2026-09-30T00:36:15.698230+00:00",
   "license_file": "LICENSE",
+  "snapshot_scope": [
+    "book/",
+    "docs/做平台要办哪些证.md",
+    "docs/家庭应急装备清单.md",
+    "docs/生物钟和夜班.md",
+    "docs/结婚划不划算.md",
+    "docs/遇到陌生人出事该不该停.md",
+    "LICENSE"
+  ],
+  "excluded_upstream_presentation": [
+    "README.md",
+    "index.html",
+    "ads/",
+    "docs/引用对照.md"
+  ],
+  "snapshot_policy": "Filtered distribution: core decision content is retained; promotional, donation, star-history, site UI and internal maintenance assets are excluded. Confirmed-dead evidence links may be repointed to current official sources.",
+  "maintenance_files_changed": 2,
   "note": "Bundled snapshot for deterministic local retrieval. Current facts may require fresh official verification."
 }

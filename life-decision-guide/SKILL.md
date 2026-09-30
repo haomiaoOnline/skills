@@ -57,10 +57,10 @@ description: 基于《高性价比人生指南》的循证人生决策助手。�
 
 - 正文：`assets/upstream/book/`
 - 长文：`assets/upstream/docs/`
-- 上游目录与章节映射：`assets/upstream/README.md`
-- 上游排序公式：`assets/upstream/index.html`
-- 来源版本：`assets/upstream/SOURCE.json`
+- 来源版本与快照范围：`assets/upstream/SOURCE.json`
 - 许可：`assets/upstream/LICENSE`
+
+注意：上游 README、网页 UI、广告、赞赏码和其他推广展示资产不属于决策知识，不随本 Skill 打包。
 
 先用确定性脚本检索：
 
@@ -126,7 +126,7 @@ python3 scripts/query_guide.py --list-sections
 
 - A / B / C
 
-上游性价比算法以 `assets/upstream/index.html` 为准。当前快照的成本权重为：
+当前 Skill 固化的性价比算法如下。`scripts/update_upstream.py` 每次更新上游快照时会核验上游网页中的算法标记；如果公式发生变化，更新会直接失败并要求人工复核。
 
 - 钱 0/少/多 → 0/1/2
 - 时间 少/中/多 → 0/1/2
@@ -236,7 +236,8 @@ python3 scripts/update_upstream.py --remote
 - `references/output-contract.md`：Quick / Standard / Deep 输出协议。
 - `references/safety-boundaries.md`：医疗、法律、金融、危机和高风险边界。
 - `references/source-policy.md`：本地快照、当前核验、来源优先级与许可。
-- `assets/upstream/README.md`：上游章节目录。
+- `assets/upstream/SOURCE.json`：上游版本、筛选范围与排除项。
+- `assets/upstream/LICENSE`：上游内容许可证。
 - `assets/upstream/book/`：34 个正文章节。
 - `assets/upstream/docs/`：上游长文。
 - `scripts/query_guide.py`：确定性检索正文。
