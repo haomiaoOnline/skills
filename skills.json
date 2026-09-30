@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "repository": "https://github.com/haomiaoOnline/skills",
+  "skills": [
+    {
+      "id": "cosmic",
+      "name": "COSMIC 软件规模评估",
+      "path": "cosmic",
+      "summary": "COSMIC 软件功能规模度量、任务拆解与 DeepSeek 辅助拆分资料集。",
+      "kind": "resource-skill",
+      "status": "active",
+      "tags": ["COSMIC", "软件规模", "需求拆解", "项目估算"]
+    },
+    {
+      "id": "life-decision-guide",
+      "name": "高性价比人生决策",
+      "path": "life-decision-guide",
+      "summary": "基于《高性价比人生指南》的循证人生决策 Skill，结合成本、收益、证据、风险、可逆性和个人约束给出可执行建议。",
+      "kind": "agent-skill",
+      "status": "active",
+      "entrypoint": "life-decision-guide/SKILL.md",
+      "tags": ["人生决策", "循证", "风险管理", "性价比"]
+    }
+  ]
+}
