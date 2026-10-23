@@ -3,13 +3,22 @@
   "repository": "https://github.com/haomiaoOnline/skills",
   "skills": [
     {
-      "id": "cosmic",
-      "name": "COSMIC 软件规模评估",
-      "path": "cosmic",
-      "summary": "COSMIC 软件功能规模度量、任务拆解与 DeepSeek 辅助拆分资料集。",
-      "kind": "resource-skill",
+      "id": "cosmic-materials-assistant",
+      "name": "COSMIC 功能点工作量拆解助手",
+      "path": "cosmic-materials-assistant",
+      "summary": "通用COSMIC工作量候选拆解和质量校验Agent Skill；Excel/CSV输入、来源追溯、MCP和单XLSX交付。",
+      "kind": "agent-skill",
       "status": "active",
-      "tags": ["COSMIC", "软件规模", "需求拆解", "项目估算"]
+      "tags": [
+        "COSMIC",
+        "CFP",
+        "功能规模",
+        "需求拆解",
+        "Excel",
+        "Agent Skill",
+        "MCP"
+      ],
+      "entrypoint": "cosmic-materials-assistant/SKILL.md"
     },
     {
       "id": "life-decision-guide",
@@ -19,7 +28,12 @@
       "kind": "agent-skill",
       "status": "active",
       "entrypoint": "life-decision-guide/SKILL.md",
-      "tags": ["人生决策", "循证", "风险管理", "性价比"]
+      "tags": [
+        "人生决策",
+        "循证",
+        "风险管理",
+        "性价比"
+      ]
     }
   ]
 }

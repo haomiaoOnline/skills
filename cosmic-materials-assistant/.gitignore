@@ -1,0 +1,16 @@
+# Generated dependencies, source records and secrets
+.venv/
+packages/
+artifacts/
+__pycache__/
+*.pyc
+*.xlsx
+*.xlsm
+*.docx
+*.pdf
+*.zip
+*.pending
+*.key
+*.pem
+.env
+.DS_Store

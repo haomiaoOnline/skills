@@ -1,0 +1,13 @@
+{
+  "policy": "universal-contract-2.0",
+  "column_mapping": {
+    "level1": "一级模块",
+    "level2": "二级模块",
+    "level3": "三级模块",
+    "functional_process": "功能过程",
+    "subprocess": "子过程描述",
+    "movement": "数据移动类型",
+    "data_group": "数据组",
+    "attributes": "数据属性"
+  }
+}
